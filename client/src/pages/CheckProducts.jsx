@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Scanner } from "../components";
+import { Navbar, Scanner } from "../components";
 import { useStateContext } from "../context";
 import { format } from "date-fns";
 
@@ -31,6 +31,7 @@ const CheckProducts = () => {
 
   return (
     <div>
+      <Navbar />
       <Scanner onScanResult={handleScanResult} />
       {info && (
         <div>

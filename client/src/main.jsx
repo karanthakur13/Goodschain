@@ -6,14 +6,17 @@ import { Sepolia } from "@thirdweb-dev/chains";
 import App from "./App";
 import "./index.css";
 import { StateContextProvider } from "./context";
+import { UserAuthProvider } from "./context/Userauth";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Router>
-    <ThirdwebProvider activeChain={Sepolia}>
-      <StateContextProvider>
-        <App />
-      </StateContextProvider>
-    </ThirdwebProvider>
+    <UserAuthProvider>
+      <ThirdwebProvider activeChain={Sepolia}>
+        <StateContextProvider>
+          <App />
+        </StateContextProvider>
+      </ThirdwebProvider>
+    </UserAuthProvider>
   </Router>
 );

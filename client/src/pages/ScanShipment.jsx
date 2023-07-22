@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Scanner, FormField, CustomButton } from "../components";
+import { Scanner, FormField, CustomButton, Navbar } from "../components";
 import { useStateContext } from "../context";
 
 const ScanShipment = () => {
@@ -49,6 +49,7 @@ const ScanShipment = () => {
 
   return (
     <div>
+      <Navbar />
       <Scanner onScanResult={handleScanResult} />
       {shipmentData && (
         <div className="mt-[30px] backdrop-brightness-50 flex justify-center items-center flex-col rounded-[10px] sm:p-10 p-4">

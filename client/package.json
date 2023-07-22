@@ -15,6 +15,7 @@
     "date-fns": "^2.30.0",
     "dom": "^0.0.3",
     "ethers": "^5",
+    "firebase": "^10.1.0",
     "html5-qrcode": "^2.3.8",
     "qrcode": "^1.5.3",
     "qrcode-reader": "^1.0.4",
