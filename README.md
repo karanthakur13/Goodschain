@@ -13,7 +13,7 @@ Welcome to our FMCG Supply Chain Application! This decentralized application (DA
 ## 1. Installation <a name="installation"></a>
 To use our FMCG Supply Chain Application, follow these steps:
 
-1. [Clone the Repository](#clone-the-repository): Clone this repository to your local machine using `git clone https://github.com/your-username/your-repo.git`
+1. [Clone the Repository](#clone-the-repository): Clone this repository to your local machine using `git clone https://github.com/karanthakur13/Goodschain.git`
 
 2. [Install Dependencies](#install-dependencies): Navigate to the project directory and install the necessary dependencies using `npm install`
 
