@@ -50,10 +50,4 @@ To use our FMCG Supply Chain Application, follow these steps:
 
 3. **Customer**: As a Customer, scan the QR code on the product you purchased to view its entire lifecycle, including its origin, updates from suppliers, and other relevant information.
 
-## Try It Out
 
-Our FMCG Supply Chain Application is live and accessible on Netlify. Join us in revolutionizing supply chain transparency by visiting [https://your-app-url.netlify.app](https://your-app-url.netlify.app) and experiencing the power of blockchain in action!
-
-For any inquiries or assistance, please reach out to our support team at support@yourapp.com.
-
-Thank you for being a part of our mission to create a more transparent and secure FMCG supply chain!
